@@ -1,0 +1,23 @@
+{
+  "name": "citra_integrasi_nusantara",
+  "version": "1.0.0",
+  "description": "Test REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "syerif",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.39",
+    "nodemon": "^2.0.20",
+    "redis": "^4.5.0"
+  }
+}
